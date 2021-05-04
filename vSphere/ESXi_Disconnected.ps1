@@ -23,7 +23,7 @@ $SMTPBODY =
     Thanks.
 "@
 
-Send-MailMessage -SmtpServer 'smtphost.qualcomm.com' -From  -To  -Cc  -Subject 'ESXi Host in Disconnected State' -Body $SMTPBody
+Send-MailMessage -SmtpServer '' -From  -To  -Cc  -Subject 'ESXi Host in Disconnected State' -Body $SMTPBody
 
     }
 
