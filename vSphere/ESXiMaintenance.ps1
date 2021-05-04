@@ -15,7 +15,7 @@ $Subject = 'ESXi Maintance Mode'
 
 $esxiHosts = Import-CSV /home/jenkins/workspace/imports/vSphereTickets.csv
 $location = "/home/jenkins/workspace/imports/vSphereTickets.csv"
-$PSEmailServer = 'smtphost.qualcomm.com'
+$PSEmailServer = ''
 $MaintanceMode = @() #Array
 $Ticket = @() #Array
 $NoTicket = @() #Array
