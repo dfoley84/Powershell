@@ -34,9 +34,9 @@ foreach($vm in $vms) {
         HorizonServer = $item
         DesktopID = $vm.Base.Name
         DesktopName = $vm.Base.DisplayName
-        TotalMachineCount = $vm.automateddesktopdata.vmnamingsettings.SpecificNamingSettings.numMachines
+        TotalMachineCount = $vm.AutomatedDesktopData.vmnamingsettings.SpecificNamingSettings.numMachines
         SpareMachines = $vm.AutomatedDesktopData.vmnamingsettings.patternnamingsettings.numberOfSpareMachines
-        Capacity = $vm.automateddesktopdata.vmnamingsettings.patternnamingsettings.maxnumberofmachines
+        Capacity = $vm.AutomatedDesktopData.vmnamingsettings.patternnamingsettings.maxnumberofmachines
 
 }
 
